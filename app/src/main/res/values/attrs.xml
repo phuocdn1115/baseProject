@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom_color">
+
+        <attr name="textColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+
+        <attr name="backgroundBottomNavigation" format="color" />
+        <attr name="itemBottomNavigationChecked" format="color" />
+        <attr name="itemBottomNavigationNotChecked" format="color" />
+
+        <attr name="backgroundToolbar" format="color" />
+
+        <attr name="backgroundTabLayout" format="color" />
+        <attr name="backgroundTabSelected" format="color" />
+        <attr name="backgroundTabUnselected" format="color" />
+
+        <attr name="backgroundButton" format="color" />
+
+    </declare-styleable>
+</resources>

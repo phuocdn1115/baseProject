@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:padding="@dimen/dp10"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/dp20"
+            app:cardElevation="@dimen/dp0"
+            app:cardBackgroundColor="@color/color_FBF6FF"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/img_popup_achievement"
+                    android:src="@drawable/ic_folder"
+                    android:layout_width="@dimen/dp0"
+                    android:layout_marginTop="@dimen/dp35"
+                    android:layout_marginHorizontal="@dimen/dp110"
+                    android:layout_height="@dimen/dp160"/>
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/img_popup_achievement"
+                    android:id="@+id/tv_header"
+                    android:layout_marginTop="@dimen/dp40"
+                    android:textColor="@color/color_3D0067"
+                    android:text="Yêu cầu quyền truy cập file mp3"
+                    android:textSize="@dimen/sp18"
+                    android:fontFamily="@font/beviet_bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/tv_header"
+                    android:layout_marginTop="@dimen/dp5"
+                    android:id="@+id/tv_description"
+                    android:textColor="@color/color_3D0067"
+                    android:paddingHorizontal="@dimen/dp15"
+                    android:text="Đọc file mp3 từ thiết bị để thao tác được nhanh chóng"
+                    android:textSize="@dimen/sp14"
+                    android:fontFamily="@font/beviet_light"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/tv_description"
+                    android:background="@drawable/bg_btn_close"
+                    android:text="Cấp quyền"
+                    android:paddingVertical="@dimen/dp13"
+                    android:textSize="@dimen/sp14"
+                    android:fontFamily="@font/beviet_bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/btn_view_reward"
+                    android:layout_marginHorizontal="@dimen/dp12"
+                    android:layout_marginTop="@dimen/dp30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    app:layout_constraintTop_toBottomOf="@id/btn_view_reward"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="Không phải bây giờ"
+                    android:paddingVertical="@dimen/dp13"
+                    android:textSize="@dimen/sp14"
+                    android:fontFamily="@font/beviet_bold"
+                    android:textColor="@color/color_3D0067"
+                    android:gravity="center"
+                    android:id="@+id/btn_cancel"
+                    android:layout_marginHorizontal="@dimen/dp12"
+                    android:layout_marginBottom="@dimen/dp35"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

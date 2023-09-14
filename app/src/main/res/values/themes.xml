@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="android:actionMenuTextColor">@color/black</item>
+
+        <!-- All app. -->
+        <item name="textColor">@color/color_131313</item>
+        <item name="backgroundColor">#F1F1F1</item>
+        <item name="backgroundButton">#1A131313</item>
+
+        <!-- Bottom Navigation. -->
+        <item name="backgroundBottomNavigation">#B3FFFFFF</item>
+        <item name="itemBottomNavigationChecked">@color/color_131313</item>
+        <item name="itemBottomNavigationNotChecked">#4D131313</item>
+
+        <!-- Toolbar. -->
+        <item name="backgroundToolbar">#F1F1F1</item>
+
+        <!-- Tab layout. -->
+        <item name="backgroundTabLayout">#1A000000</item>
+        <item name="backgroundTabSelected">#1A000000</item>
+        <item name="backgroundTabUnselected">#1A000000</item>
+
+
+    </style>
+</resources>
